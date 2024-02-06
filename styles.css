@@ -1,0 +1,129 @@
+
+
+.bg {
+    height: 100%;
+    width: 100%;
+    
+    background-image: radial-gradient(white, #62C6F2);
+}   
+*{
+    margin: 0;
+}
+.menu_container{
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Century Gothic";
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.menu{
+    width: 100%;
+}
+
+.box{
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    
+    
+    
+}
+.home{
+    width: 400px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.right-menu{
+    height: 40px;
+    width: 300px;
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+.contactbox{
+    height: 40px;
+    width: 120px;
+    margin-top: 9px;
+    
+}
+
+
+.container{
+    
+    height: 600px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftmain{
+    
+    width: 50%;
+    margin-top: 50px;
+
+
+}
+
+.rightmain{
+height: 75%;
+
+
+width: 50%;
+
+text-align: center;
+
+}
+
+.nametext{
+    font-family: "Century Gothic";
+    font-size: 72px;
+    font-weight: bolder;
+    color: darkblue;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.titletext{
+    font-family: "Century Gothic";
+    font-size: 36px;
+    font-weight: bold;
+    color: darkblue;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.ptext{
+    
+    font-family: "Century Gothic";
+    font-size: 16px;
+    font-weight: normal;
+    color: darkblue;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.underprog{
+
+    font-family: "Century Gothic";
+    font-size: 36px;
+    font-weight: bolder;
+    color: darkblue;
+   
+    text-align: center;
+    padding: 20%;
+}
