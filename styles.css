@@ -1,68 +1,52 @@
-
-
 .bg {
     height: 100%;
     width: 100%;
-    
     background-image: radial-gradient(white, #62C6F2);
-}   
-*{
+}
+
+* {
     margin: 0;
 }
-.menu_container{
+
+.menu_container {
     background-color: white;
     border-bottom-style: solid;
     border-bottom-color: black;
     border-bottom-width: 2px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
     font-family: "Century Gothic";
     font-weight: bolder;
     font-size: 16px;
 }
 
-.menu{
-    width: 100%;
-}
-
-.box{
-    height: 50px;
-    width: 100px;
-    margin-top: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: center;
-    
-    
-    
-}
-.home{
-    width: 400px;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-.right-menu{
-    height: 40px;
-    width: 300px;
-    margin-left: 40%;
+.right-menu {
+    padding: 10px 20px;
     display: flex;
-    justify-content: center;
-    align-items: start;
-    
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
 }
 
-.contactbox{
-    height: 40px;
-    width: 120px;
-    margin-top: 9px;
-    
+.box {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.home {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
 
-.container{
-    
+.container {
     height: 600px;
     display: flex;
     flex-flow: row;
@@ -70,25 +54,24 @@
     align-items: center;
 }
 
-.leftmain{
-    
+.leftmain {
     width: 50%;
     margin-top: 50px;
-
-
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
 }
 
-.rightmain{
-height: 75%;
-
-
-width: 50%;
-
-text-align: center;
-
+.leftmain img {
+    max-width: 60%;
 }
 
-.nametext{
+.rightmain {
+    height: 75%;
+    width: 50%;
+    text-align: center;
+}
+
+.nametext {
     font-family: "Century Gothic";
     font-size: 72px;
     font-weight: bolder;
@@ -97,7 +80,7 @@ text-align: center;
     margin-bottom: 25px;
 }
 
-.titletext{
+.titletext {
     font-family: "Century Gothic";
     font-size: 36px;
     font-weight: bold;
@@ -106,24 +89,67 @@ text-align: center;
     margin-bottom: 25px;
 }
 
-.ptext{
-    
+.ptext {
     font-family: "Century Gothic";
     font-size: 16px;
     font-weight: normal;
     color: darkblue;
     margin-top: 25px;
     margin-bottom: 25px;
-
 }
 
-.underprog{
+.button{
+    color: white;
+}
 
+/* Dropdown Button */
+.dropbtn {
+    margin-left: 5px;
+    color: black;
+    margin-top: 10px;
+    background-color: white;
     font-family: "Century Gothic";
-    font-size: 36px;
     font-weight: bolder;
-    color: darkblue;
-   
-    text-align: center;
-    padding: 20%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu */
+.show {
+    display: block;
 }
